@@ -1,4 +1,5 @@
 1.Download the Docker container in your local
+
 2.Download the images required for running selenium grid on docker by navigating to url : https://hub.docker.com/r/selenium/hub
 3.Understand the docker compose file provided in the framework
 
