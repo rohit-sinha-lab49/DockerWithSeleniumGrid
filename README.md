@@ -1,6 +1,7 @@
 1.Download the Docker container in your local
 
 2.Download the images required for running selenium grid on docker by navigating to url : https://hub.docker.com/r/selenium/hub
+
 3.Understand the docker compose file provided in the framework
 
 Let’s break down this YAML file:
@@ -15,14 +16,23 @@ depends_on: - selenium-hub : Indicates that the Chrome node depends on the selen
 environment: -SE_EVENT_BUS_HOST=selenium-hub : Sets the SE_EVENT_BUS_HOST environment variable for Chrome node to point to the selenium-hub service. This allows the node to register with the hub
 
 4.Go to the path of docker compose file locally and open command prompt from that location
+
 5.Check for if any conatainers are running already by hitting this : docker ps
+
 6.Provide the command 'docker-compose up' in the command prompt and check if you see logs
+
 7.Go the the localhost port 4444 to check if Selenium Grid is up and running : http://localhost:4444/ui#
+
 8.Again check for running containers using same command docker ps
+
 9.Execute your tests using testng.xml file which will execute the tests on grid and same can be seen in sessions tab of the grid
+
 10.open the session with password 'secret' to view your execution
+
 11.You can also scale your number of nodes for a given browser using this command : docker-compose scale chrome=3
+
 12.Check in grid if the added nodes are visible or not
+
 13.Once your work is done can bring the grid down by executing the command 'docker-compose down'
 
 
@@ -30,10 +40,15 @@ environment: -SE_EVENT_BUS_HOST=selenium-hub : Sets the SE_EVENT_BUS_HOST enviro
 
 Useful links :
 https://github.com/SeleniumHQ/docker-selenium
+
 https://hub.docker.com/
+
 https://github.com/SeleniumHQ/docker-selenium/blob/trunk/docker-compose-v3.yml
+
 https://docs.docker.com/get-started/overview/
+
 https://www.selenium.dev/documentation/grid/
+
 https://docs.docker.com/get-started/08_using_compose/
 
 Useful commands :
