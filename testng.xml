@@ -3,14 +3,15 @@
 <suite name="Suite" parallel="classes">
     <test thread-count="10" name="Test">
         <classes>
-            <class name="DockerTutorial.ChromeTest1"/>
+            <class name="DockerTutorial.Setup_DockerGrid"/>
+            <!--<class name="DockerTutorial.ChromeTest1"/>-->
             <class name="DockerTutorial.ChromeTest2"/>
-            <class name="DockerTutorial.ChromeTest3"/>
-            <class name="DockerTutorial.FirefoxTest1"/>
-            <class name="DockerTutorial.FirefoxTest1"/>
-            <class name="DockerTutorial.FirefoxTest2"/>
-            <class name="DockerTutorial.EdgeTest1"/>
-            <class name="DockerTutorial.EdgeTest2"/>
+<!--            <class name="DockerTutorial.ChromeTest3"/>-->
+            <!--<class name="DockerTutorial.FirefoxTest1"/>-->
+<!--            <class name="DockerTutorial.FirefoxTest1"/>-->
+<!--            <class name="DockerTutorial.FirefoxTest2"/>-->
+<!--            <class name="DockerTutorial.EdgeTest1"/>-->
+<!--            <class name="DockerTutorial.EdgeTest2"/>-->
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

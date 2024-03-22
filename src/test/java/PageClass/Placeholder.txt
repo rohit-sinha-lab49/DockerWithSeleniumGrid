@@ -1,0 +1,4 @@
+//div[@class='inventory_list']/div/div[@class='inventory_item_description']/div[contains(@class,'label')]
+//div[@class='inventory_list']/div/div[@class='inventory_item_description']/div[contains(@class,'label')]/div[contains(@class,'desc')]
+//div[@class='inventory_list']/div/div[@class='inventory_item_description']/div[contains(@class,'pricebar')]/div
+//div[@class='inventory_list']/div/div[@class='inventory_item_description']/div[contains(@class,'pricebar')]/button
